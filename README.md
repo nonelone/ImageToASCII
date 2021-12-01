@@ -1,4 +1,11 @@
-> ImageToASCII
-This is a simple, command-line based script, which when supplied with path to an image and desired scale, will create text file (called output.txt) with given image converted to long string consisting of ".", ":". "o", "0" and "#"
-It uses sys and PIL modules to achieve just that
+## ImageToASCII
+
+This is a simple, command-line based script, which converts images to strings of text
+
+To use it, give it 2 arguments: path to file and desired scale
+
+The output "image" will be stored in output.txt file
+
+It uses sys and PIL modules
+
 The script itself is MIT-licenced
